@@ -27,7 +27,7 @@
 }
 
 #mainNav .navbar-nav .nav-item:hover {
-  color: fade(#BDBBB0, 80%);
+  color: fade(rgb(0, 0, 0), 80%);
   outline: none;
   background-color: transparent;
 }
@@ -70,7 +70,7 @@
     color: white;
   }
   #mainNav.navbar-shrink .nav-link {
-    color: #BDBBB0;
+    color: whitesmoke;
     padding: 1.5rem 1.5rem 1.25rem;
     border-bottom: 0.25rem solid transparent;
   }
@@ -232,6 +232,8 @@
   border: 0;
 }
 
+
+
 .contact-section {
   padding: 5rem 0 0;
 }
@@ -304,4 +306,9 @@ a:focus, a:hover {
 
 footer {
   padding: 5rem 0;
+}
+
+.img-fluid, mb-3 mb-lg-0 {
+  border: solid;
+  border-color: #161616;
 }
