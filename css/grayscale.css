@@ -177,6 +177,11 @@
   font-size: 125%
 }
 
+.about-section pre {
+  text-align: center;
+  background-color: #BDBBB0;
+}
+
 .projects-section {
   padding: 10rem 0;
   background: #9F9E93;
